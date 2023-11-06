@@ -12,6 +12,9 @@
     "preview": "vite preview",
     "start:server": "nodemon api.js"
   },
+  "peerDependencies": {
+  "react": "^18.2.0"
+},
   "dependencies": {
     "@paypal/checkout-server-sdk": "^1.0.3",
     "@paypal/react-paypal-js": "^8.1.3",
